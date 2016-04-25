@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>Skills-HTML-CSS</title>
+    </head>
+    <body>
+        <!-- your html goes here -->
+        <h2>Thanks for your interest in applying.</h2>
+        <h4 id="bordered">Please enter the following application information. Enter only numbers for the Salary Requirement field.</h4>
+    	<form action="/application" method="POST">
+    		<label>First name:
+    		<input type="text" class="form" name="firstname"></label><br>
+    		<label>Last name:
+    		<input type"text" class="form" id="lastname" name="lastname"></label><br>
+    		<label>Salary Requirement: $
+    		<input type="text" class="form" name="salreq"></label><br><br>
+
+    		<label>Preferred job title: <br><select name="jobtitle">
+    			<option value="software-engineer">Software Engineer</option>
+    			<option value="qa-engineer">QA Engineer</option>
+    			<option value="product-manager">Product Manager</option>
+    		</select></label><br><br>
+    		<input type="submit" class="form">
+    	</form>
+
+
+    </body>
+</html>
